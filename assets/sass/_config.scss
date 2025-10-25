@@ -1,0 +1,28 @@
+//color Variables
+$color-white: #EEEEEE;
+$color-green: #468A9A;
+$color-marron: #541212;
+$color-black: #0F0E0E;
+
+//Media queris variables
+$media-mobile-s: 320px;
+$media-mobile-m: 375px;
+$media-mobile-l: 425px;
+$media-table-l: 768px;
+$media-desktop: 1024px;
+
+//Mixins fonts
+@mixin font-title {
+    font-family: 'JetBrains Mono', sans-serif;
+    font-weight: 700;
+}
+
+@mixin font-subtitle {
+    font-family: 'JetBrains Mono', sans-serif;
+    font-weight: 500;
+}
+
+@mixin font-paragraf {
+    font-family: 'JetBrains Mono', sans-serif;
+    font-weight: 400;
+}

@@ -1,0 +1,29 @@
+.webview .contato {
+  .container {
+    .formulario {
+      form {
+        .form-group {
+          padding: 5px;
+
+          .controls {
+            display: flex;
+            flex-direction: row !important; // 👈 força horizontal
+            align-items: center;
+            gap: 10px;
+
+            label {
+              white-space: nowrap;
+              width: 120px;
+              text-align: right; // opcional para alinhar texto
+            }
+
+            input,
+            textarea {
+              flex: 1;
+            }
+          }
+        }
+      }
+    }
+  }
+}
