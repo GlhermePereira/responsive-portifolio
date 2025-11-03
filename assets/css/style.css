@@ -648,11 +648,11 @@ html, body {
   }
   .webview .sobre .container .row .c-photo {
     flex: 1 1 50%;
-    width: 80%;
-    height: 80%;
+    width: 70%;
+    height: 70%;
   }
   .webview .sobre .container .row .c-photo img {
-    max-height: 600px;
+    max-height: 1000px;
     width: 100%;
     height: auto;
     object-fit: cover;
@@ -682,7 +682,7 @@ html, body {
     align-items: center;
   }
   .webview .contato .container .formulario form .form-group label {
-    width: 140px;
+    width: 340px;
     text-align: right;
   }
   .webview .contato .container .formulario form .form-group input,
